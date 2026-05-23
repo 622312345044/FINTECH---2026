@@ -1,0 +1,30 @@
+# FinAgent — AI-Powered Financial Data Agent
+# Install with: pip install -r requirements.txt
+
+# Data collection
+yfinance>=0.2.40
+requests>=2.31.0
+lxml>=5.0.0            # required by pandas read_html (Wikipedia scraping)
+pandas-datareader>=0.10.0  # FRED macro data
+fredapi>=1.0.0             # FRED API client (free key at fred.stlouisfed.org)
+finvizfinance>=1.0.0       # Finviz fundamentals scraper
+beautifulsoup4>=4.12.0     # HTML parsing for ESG scraping
+
+# Data processing
+pandas>=2.0.0
+numpy>=1.26.0
+
+# Visualisation
+plotly>=5.22.0
+matplotlib>=3.8.0
+seaborn>=0.13.0
+kaleido>=0.2.1         # plotly static image export
+
+# AI analysis
+google-generativeai>=0.8.0   # Google Gemini (free tier)
+groq>=0.9.0                  # Groq / Llama 3 (free tier, fast)
+ollama>=0.3.0                # Ollama local LLM (no API key, no rate limits)
+python-dotenv>=1.0.0
+
+# Jupyter
+ipykernel>=6.29.0
