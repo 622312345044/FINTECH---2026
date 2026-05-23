@@ -372,14 +372,13 @@ Potential extensions of the framework include:
 This project demonstrates the integration of financial data engineering, statistical analysis, ESG-enhanced datasets, and large language models within a unified analytical framework. By combining reproducible quantitative processing pipelines with grounded AI-generated commentary, the system provides a scalable infrastructure suitable for modern fintech research and AI-assisted financial analysis.
 
 The framework illustrates how artificial intelligence can augment traditional financial analytics while maintaining strong linkage between generated interpretation and underlying quantitative evidence.
+---
 
-```
-```
-## How to Run
+# How to run
 
 Follow these steps to set up the environment and run the AI Analysis Module.
 
-### 1. Prerequisites & Environment Setup
+## 1. Prerequisites & Environment Setup
 Make sure you have Python 3.13+ installed. Clone this repository, navigate to the project root, and create a `.env` file to manage your API keys safely.
 
 ```env
@@ -387,9 +386,9 @@ Make sure you have Python 3.13+ installed. Clone this repository, navigate to th
 GEMINI_API_KEY=your_gemini_api_key_here
 GROQ_API_KEY=your_groq_api_key_here
 
-Here is a clean, professional **"How to Run"** section designed to be copied directly into your `README.md` file. It covers all three backend options you have set up in your code.
+```
 
-### 2. Install Dependencies
+## 2. Install Dependencies
 
 Install the required libraries using `pip`:
 
@@ -398,7 +397,7 @@ pip install pandas numpy google-generativeai groq ollama python-dotenv
 
 ```
 
-### 3. Choose and Configure Your LLM Backend
+## 3. Choose and Configure Your LLM Backend
 
 Open the Jupyter Notebook and locate the **Backend selector** configuration in the first code cell. Set the `BACKEND` variable to your preferred option:
 
@@ -415,17 +414,21 @@ ollama pull llama3.2
 
 ```
 
-### 4. Run the Pipeline
+## 4. Run the Pipeline
 
 1. Ensure your cleaned data file is present at `data/cleaned/prices_clean.csv`.
 2. Open the notebook in your environment (VS Code, JupyterLab, or Jupyter Notebook).
 3. Click **Run All Cells** to execute the pipeline sequentially.
 
-### 5. Outputs
+## 5. Outputs
 
 Once execution completes, the full markdown report will be compiled and exported to your local directory:
 
 ```text
 outputs/ai_analysis_report.md
 
+```
 
+```
+
+```
