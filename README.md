@@ -372,6 +372,7 @@ Potential extensions of the framework include:
 This project demonstrates the integration of financial data engineering, statistical analysis, ESG-enhanced datasets, and large language models within a unified analytical framework. By combining reproducible quantitative processing pipelines with grounded AI-generated commentary, the system provides a scalable infrastructure suitable for modern fintech research and AI-assisted financial analysis.
 
 The framework illustrates how artificial intelligence can augment traditional financial analytics while maintaining strong linkage between generated interpretation and underlying quantitative evidence.
+
 ---
 
 # How to run
