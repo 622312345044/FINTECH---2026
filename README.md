@@ -1,4 +1,4 @@
-# FINTECH---2026
+# AI-Powered Financial Analytics and Visualization Framework for S&P 500 Equities
 
 # AI-Powered Financial Analytics and ESG-Integrated Intelligence Framework
 
