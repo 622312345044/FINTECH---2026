@@ -1,7 +1,5 @@
 # AI-Powered Financial Analytics and Visualization Framework for S&P 500 Equities
 
-# AI-Powered Financial Analytics and ESG-Integrated Intelligence Framework
-
 ## Overview
 The increasing complexity of modern financial markets has accelerated the demand for intelligent analytical systems capable of transforming large-scale financial datasets into actionable insights. Traditional financial analysis methods, which rely heavily upon manual interpretation of historical market performance and accounting information, are increasingly insufficient in environments characterized by rapid information generation, cross-market interdependence, and heightened volatility.
 
